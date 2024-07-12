@@ -1,0 +1,43 @@
+@import "./fonts.scss";
+@import "./normalize.scss";
+@import "./header.scss";
+@import "./nav.scss";
+
+.container {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+body {
+  font-family: "Golos Text";
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+.header__container {
+  display: flex;
+  margin-left: 80px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.list__container {
+  margin-top: 20px;
+  .list {
+    display: flex;
+    margin-left: -25px;
+  }
+  .aksiya {
+    background-color: rgb(98, 227, 98);
+    border-radius: 10px;
+    padding: 5px 10px;
+    ul a {
+      color: white;
+    }
+  }
+  a {
+    color: gray;
+  }
+}
